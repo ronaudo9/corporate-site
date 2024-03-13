@@ -4,7 +4,7 @@ export const Header = () => {
       <div className="mx-auto h-16 max-w-6xl bg-white px-4">
         <h1 className="p-5 px-4 text-2xl leading-none "> Travel Blog</h1>
       </div>
-      <div className="bg-gray-600">
+      <div className="bg-gray-800">
         <nav className="top-20 mx-auto flex h-9 max-w-6xl items-center overflow-x-auto  px-4">
           <ul className="flex  w-full px-4 text-xs text-white">
             <li>NEW</li>

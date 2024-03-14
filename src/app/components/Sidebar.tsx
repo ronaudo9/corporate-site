@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Sidebar = () => {
   return (
@@ -14,7 +15,7 @@ export const Sidebar = () => {
               height={130}
             />
           </div>
-          <p className="text-lg font-bold">Name Name</p>
+          <p className="text-lg font-bold">Name&nbsp;Name</p>
         </div>
         <p className="text-sm">
           プロフィールテキストテキストテキストテキストテキ
@@ -26,37 +27,43 @@ export const Sidebar = () => {
       <div className="mb-14">
         <p className="mb-7 text-center text-lg font-bold">Ranking</p>
         <div className="mb-7">
-          <Image
-            className="w-full"
-            src="/ranking1.jpg"
-            alt="ranking1"
-            width={345}
-            height={194}
-          />
+          <Link href="#">
+            <Image
+              className="w-full"
+              src="/ranking1.jpg"
+              alt="ranking1"
+              width={345}
+              height={194}
+            />
+          </Link>
           <p className="text-sm">
             タイトルテキストテキストテキストテキストテキスト テキスト
           </p>
         </div>
         <div className="mb-7">
-          <Image
-            className="w-full"
-            src="/ranking2.jpg"
-            alt="ranking2"
-            width={345}
-            height={194}
-          />
+          <Link href="#">
+            <Image
+              className="w-full"
+              src="/ranking2.jpg"
+              alt="ranking2"
+              width={345}
+              height={194}
+            />
+          </Link>
           <p className="text-sm">
             タイトルテキストテキストテキストテキストテキスト テキスト
           </p>
         </div>
         <div className="mb-7">
-          <Image
-            className="w-full"
-            src="/ranking3.jpg"
-            alt="ranking3"
-            width={345}
-            height={194}
-          />
+          <Link href="#">
+            <Image
+              className="w-full"
+              src="/ranking3.jpg"
+              alt="ranking3"
+              width={345}
+              height={194}
+            />
+          </Link>
           <p className="text-sm">
             タイトルテキストテキストテキストテキストテキスト テキスト
           </p>
@@ -67,77 +74,77 @@ export const Sidebar = () => {
         <tbody>
           <tr>
             <td className="border-y border-gray-600  py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#">XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#">XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#"> XXXX年XX月(XX)</Link>
             </td>
           </tr>
           <tr>
             <td className="border-y border-gray-600 py-5 pl-5 text-sm">
-              XXXX年XX月(XX)
+              <Link href="#">XXXX年XX月(XX)</Link>
             </td>
           </tr>
         </tbody>

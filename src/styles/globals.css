@@ -2,3 +2,11 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.twitter-timeline {
+  /* Add any necessary styles here */
+}
+
+.twitter-timeline iframe {
+  width: 100% !important;
+}
